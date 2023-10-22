@@ -29,7 +29,6 @@ function App() {
       spotify.onLogIn = setLoggedIn;
       await spotify.init();
       const profile = await spotify.profile();
-      // debugger;
       setUserName(profile?.display_name);
 
       if (profile?.images.length > 0) {
@@ -42,7 +41,6 @@ function App() {
     setActiveModal(null);
   };
 
-  // Close modal popup with Escape key
   useEffect(() => {
     const closeByEscape = (e) => {
       if (e.key === "Escape") {
@@ -54,7 +52,6 @@ function App() {
 
     return () => document.removeEventListener("keydown", closeByEscape);
   }, []);
-  // Close modal popup with OutsideClick
   useEffect(() => {
     const closeByOutsideClick = (e) => {
       if (e.target.classList.contains("modal")) {

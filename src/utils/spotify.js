@@ -16,14 +16,11 @@ class Spotify {
     if (this.token) {
       return;
     }
-    // First check if we already have a token to login with
     const token = localStorage.getItem(SPOTIFY_LOCAL_STORAGE_KEY);
     if (token) {
       this.token = token;
       this.setLogin(true);
     } else {
-      // If not, check if oauth is coming back with a code
-      // we can use to get a token when we login
       const params = new URLSearchParams(window.location.search);
       this.code = params.get("code");
       this.setLogin(!!this.code);
@@ -41,10 +38,8 @@ class Spotify {
 
   async login() {
     if (this.token) {
-      // If we already have a token then we are logged in
       this.setLogin(true);
     } else {
-      // Otherwise, redirect to Spotify to login
       this.redirectToAuthCodeFlow();
     }
   }

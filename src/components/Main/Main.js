@@ -28,7 +28,6 @@ export default function Main({ loggedIn, profileImage }) {
           </p>
         </div>
       </section>
-      {/* <About /> */}
     </div>
   );
 }
