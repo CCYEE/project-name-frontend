@@ -1,0 +1,16 @@
+.navbar__link {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  white-space: normal;
+  display: inline-block;
+}
+
+.navbar__link:hover {
+  color: rgba(30, 215, 96, 0.65);
+  transition: 0.35s;
+}
+
+/* .navbar__link:visited {
+  color: rgb(255, 255, 255);
+} */

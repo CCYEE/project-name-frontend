@@ -1,0 +1,45 @@
+.song-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: white url("../../images/park-background.jpg") center/cover
+    no-repeat;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.songs__show-more-container {
+  display: flex;
+  margin: 0px;
+  background-color: rgb(25, 25, 25);
+}
+
+.songs__show-more-button {
+  margin: 10px auto;
+  padding: 8px;
+  background-color: rgb(200, 200, 200);
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px;
+  color: #000000;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Cabinet-Grotesk", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.songs__show-more-button:hover {
+  cursor: pointer;
+  background-color: rgba(30, 215, 96, 0.65);
+  transition: 0.35s;
+}
+
+.error__message {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}

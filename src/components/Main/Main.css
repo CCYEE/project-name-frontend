@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+  height: 500px;
+  background: white url("../../images/park-background.jpg") center/cover
+    no-repeat;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.65);
+  width: 325px;
+  border-radius: 25px;
+}
+
+.main__icon {
+  width: 80px;
+  padding: 30px;
+}
+
+.main__caption {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.main__login {
+  background-color: rgb(200, 200, 200);
+  padding: 10px;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.main__login:hover {
+  cursor: pointer;
+  background-color: rgba(30, 215, 96, 0.65);
+  transition: 0.35s;
+}
