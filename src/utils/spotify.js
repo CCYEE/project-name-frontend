@@ -1,4 +1,4 @@
-const CLIENT_ID = "b8b11fc862cf4aeebdade6613a44f664";
+const CLIENT_ID = "4f81884e362d401bb47433e5fa3f5e79";
 const REDIRECT_URL = "http://localhost:3000";
 const SPOTIFY_URL = "https://api.spotify.com/v1/";
 const SCOPE = "user-read-private user-read-email user-top-read";

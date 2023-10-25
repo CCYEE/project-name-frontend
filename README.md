@@ -1,8 +1,11 @@
 # Recommendations Spotify App
 
-# This project lets you login to your Spotify account and shows your Top 12 Tracks and shows Top 12 Reommended Songs based on your Tracks.
+# This project lets you login to your Spotify account and shows your Top Tracks and shows Top Recommended Songs based on your Tracks.
 
-This Spotify App is in development mode and requires the Spotify users email to be added to the user management to access.
+This Spotify App is in development mode and requires the Spotify users email to be added to the user management to access. Feel free to use this login to test the app.
+
+Email: spotify.testprofile@gmail.com<br>
+Password: Spotify1!
 
 # Recommendations Spotify App How-To
 
