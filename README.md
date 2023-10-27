@@ -2,7 +2,7 @@
 
 # GitHub Pages Link
 
-Here is the link to the Spotify App (https://ccyee.github.io/project-name-frontend/)
+Here is the link to the Spotify App (https://project-name-frontend-4p4laj43w-chris-projects-a6e4202a.vercel.app)
 
 # This project lets you login to your Spotify account and shows your Top Tracks and shows Top Recommended Songs based on your Tracks.
 
