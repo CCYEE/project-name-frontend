@@ -1,5 +1,9 @@
 # Recommendations Spotify App
 
+# GitHub Pages Link
+
+Here is the link to the Spotify App (https://ccyee.github.io/project-name-frontend/)
+
 # This project lets you login to your Spotify account and shows your Top Tracks and shows Top Recommended Songs based on your Tracks.
 
 This Spotify App is in development mode and requires the Spotify users email to be added to the user management to access. Feel free to use this login to test the app.
