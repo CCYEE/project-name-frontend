@@ -11,9 +11,10 @@
 }
 
 .header__logo {
-  position: absolute;
+  /* position: absolute;
   top: -30px;
-  left: -48px;
+  left: -48px; */
+
   width: 200px;
   min-width: 50px;
   max-height: 50px;
@@ -25,9 +26,9 @@
   transition: opacity 0.35s;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 665px) {
   .header {
-    padding: 20px;
-    min-height: 20px;
+    display: flex;
+    flex-direction: column;
   }
 }

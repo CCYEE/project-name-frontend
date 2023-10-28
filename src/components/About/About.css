@@ -25,5 +25,16 @@
   font-style: normal;
   font-family: "Cabinet-Grotesk", Arial, Helvetica, sans-serif;
   font-size: 16px;
+
   line-height: 1.2;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .about__header {
+    text-align: center;
+  }
+
+  .about__info {
+    text-align: center;
+  }
 }

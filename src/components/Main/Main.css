@@ -6,8 +6,8 @@
   text-align: center;
   padding: 60px;
   height: 500px;
-  background: white url("../../images/park-background.jpg") center/cover
-    no-repeat;
+  /* background: white url("../../images/park-background.jpg") center/cover
+    no-repeat; */
 }
 
 .main__container {

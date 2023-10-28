@@ -34,7 +34,6 @@
 }
 
 .song-card__name {
-  position: absolute;
   margin: auto;
   padding: 2px 12px;
   width: 277px;
