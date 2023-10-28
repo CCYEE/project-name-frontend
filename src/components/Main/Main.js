@@ -19,15 +19,15 @@ export default function Main({ loggedIn, profileImage }) {
 
   return (
     <div>
-      <section className="main">
-        <div className="main__container">
+      <main className="main">
+        <section className="main__container">
           <img className="main__icon" src={img} alt="main icon"></img>
           {button}
           <p className="main__caption">
             See your Top Songs and get Recommendations based on your Top Songs!
           </p>
-        </div>
-      </section>
+        </section>
+      </main>
     </div>
   );
 }

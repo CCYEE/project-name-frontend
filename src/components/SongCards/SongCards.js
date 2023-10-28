@@ -44,12 +44,12 @@ export default function SongCards({
   } else {
     return (
       <div>
-        <div className={"song-cards " + className}>
+        <section className={"song-cards " + className}>
           {(songs.slice(0, visibleSongs) || []).map((song) => (
             <SongCard key={song.name} song={song} selectSong={selectSong} />
           ))}
-        </div>
-        <div className="songs__show-more-container">
+        </section>
+        <section className="songs__show-more-container">
           {visibleSongs < 10 ? (
             <button
               type="button"
@@ -61,7 +61,7 @@ export default function SongCards({
           ) : (
             <></>
           )}
-        </div>
+        </section>
       </div>
     );
   }
