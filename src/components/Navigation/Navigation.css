@@ -16,4 +16,8 @@
     font-size: 12px;
     padding: 5px;
   }
+  .navbar__container {
+    display: flex;
+    align-items: center;
+  }
 }

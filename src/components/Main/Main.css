@@ -4,10 +4,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   height: 500px;
-  /* background: white url("../../images/park-background.jpg") center/cover
-    no-repeat; */
+  background: white;
 }
 
 .main__container {
