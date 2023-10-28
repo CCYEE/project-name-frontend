@@ -136,7 +136,6 @@ class Spotify {
   }
 
   async redirectToAuthCodeFlow() {
-    console.log("hello");
     const verifier = this.generateCodeVerifier(128);
     const challenge = await this.generateCodeChallenge(verifier);
 
