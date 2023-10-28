@@ -8,7 +8,7 @@ Here is the link to the Spotify App (https://project-name-frontend-5cmxhdpnd-chr
 
 This Spotify App is in development mode and requires the Spotify users email to be added to the user management to access. Feel free to use this login to test the app.
 
-Email: spotify.testprofile@gmail.com<br>
+Email: spotify.testguest@gmail.com<br>
 Password: Spotify1!
 
 # Recommendations Spotify App How-To

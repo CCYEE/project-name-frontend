@@ -1,5 +1,6 @@
 const CLIENT_ID = "4f81884e362d401bb47433e5fa3f5e79";
-const REDIRECT_URL = "http://localhost:3000";
+const REDIRECT_URL =
+  "https://project-name-frontend-f2qoc2sfe-chris-projects-a6e4202a.vercel.app";
 const SPOTIFY_URL = "https://api.spotify.com/v1/";
 const SCOPE = "user-read-private user-read-email user-top-read";
 
