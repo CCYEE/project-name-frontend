@@ -1,0 +1,8 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  font-family: "Cabinet-Grotesk", Arial, Helvetica, sans-serif;
+  height: 100vh;
+}

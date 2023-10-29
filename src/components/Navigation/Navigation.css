@@ -1,0 +1,30 @@
+.navbar__link {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  white-space: normal;
+  display: inline-block;
+}
+
+.navbar__link:hover {
+  color: rgba(30, 215, 96, 0.65);
+  transition: 0.35s;
+}
+
+@media screen and (min-width: 335px) and (max-width: 550px) {
+  .navbar__link {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .navbar__container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .navbar__link {
+    font-size: 6px;
+    padding: 5px;
+  }
+}
